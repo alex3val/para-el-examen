@@ -1,0 +1,4 @@
+$idade = array("Shakira"=>"50", "Piqué"=>"34", "Chía"=>"23");
+$idade ["alonso"] = "40";
+
+array_shift($idade);
