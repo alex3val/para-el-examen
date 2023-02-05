@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+ $nombre = "alvaro";
+ 
+ $edad = 19;
+ 
+ if ($edad < 18) { 
+ echo $nombre,  " es menor, no puede votar ", date("d-m-Y");} else {echo $nombre,  " es adulto, puede votar ", date("d-m-Y");}
+?> 
+
+</body>
+</html>
