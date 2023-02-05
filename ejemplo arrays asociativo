@@ -1,0 +1,1 @@
+echo "Peter is " . $age['Peter'] . " years old.";
