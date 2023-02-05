@@ -1,4 +1,7 @@
-foreach($age as $x => $x_value) {
+asort($idade);
+
+foreach($idade as $x => $x_value) {
   echo  $x . ", " . $x_value;
   echo "<br>";
-  }
+}
+?> 
