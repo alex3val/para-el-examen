@@ -3,11 +3,13 @@
 <body>
 
 <?php
-$idade = array("Shakira"=>"50", "Piqué"=>"34", "Chía"=>"23");
-$idade ["alonso"] = "40";
+$nota = array("Daniel"=>"10", "Alejandro"=>"5", "Gabriel"=>"0");
+unset($nota["Alejandro"]);
 
-print_r($idade);
-?> 
+foreach($nota as $x => $x_value) {
+    echo $x . " tiene un " . $x_value . "<br>";
+}
+?>
 
 </body>
 </html>
