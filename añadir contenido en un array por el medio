@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$nota = array(10, 5, 0);
+array_splice($nota, 2, 0, 8);
+array_splice($nota, 3, 0, 2);
+foreach($nota as $x_value) {
+    echo "Nota: " . $x_value . "<br>";
+}
+?>
+
+</body>
+</html>
